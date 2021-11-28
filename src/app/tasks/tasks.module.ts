@@ -6,13 +6,15 @@ import { TaskListComponent } from './list/task-list.component';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { NewTaskComponent } from './new-task/new-task.component';
+import { EditTaskComponent } from './edit-task/edit-task.component';
 
 
 
 @NgModule({
   declarations: [
     TaskListComponent,
-    NewTaskComponent
+    NewTaskComponent,
+    EditTaskComponent
   ],
   imports: [
     CommonModule,
