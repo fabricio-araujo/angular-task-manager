@@ -5,14 +5,14 @@ import { TaskService } from './shared/task.service';
 import { TaskListComponent } from './list/task-list.component';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
-import { NewComponent } from './new/new.component';
+import { NewTaskComponent } from './new-task/new-task.component';
 
 
 
 @NgModule({
   declarations: [
     TaskListComponent,
-    NewComponent
+    NewTaskComponent
   ],
   imports: [
     CommonModule,
