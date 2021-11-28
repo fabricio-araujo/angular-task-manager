@@ -7,6 +7,7 @@ import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { NewTaskComponent } from './new-task/new-task.component';
 import { EditTaskComponent } from './edit-task/edit-task.component';
+import { DoneTaskDirective } from './shared/done-task.directive';
 
 
 
@@ -14,7 +15,8 @@ import { EditTaskComponent } from './edit-task/edit-task.component';
   declarations: [
     TaskListComponent,
     NewTaskComponent,
-    EditTaskComponent
+    EditTaskComponent,
+    DoneTaskDirective
   ],
   imports: [
     CommonModule,
